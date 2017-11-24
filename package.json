@@ -1,0 +1,25 @@
+{
+  "name": "remote-ip-koa-middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines" : {
+    "node" : ">=8.0"
+  },
+  "engineStrict" : true,
+  "dependencies": {
+    "ip": "^1.1.5"
+  },
+  "devDependencies": {
+    "koa": "^2.4.1",
+    "koa-router": "^7.3.0",
+    "mocha": "^3.5.3",
+    "power-assert": "^1.4.4",
+    "supertest": "^3.0.0"
+  }
+}
